@@ -16,3 +16,5 @@ yarn-error.log
 
             $table->enum('role',['admin','client'])->default("client");
             $table->boolean('active')->default('true');
+
+             $table->id();
